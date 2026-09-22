@@ -4,18 +4,23 @@
 }
 
 html::before {
-  content: "";
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  z-index: 99999; /* Keeps it on top of all site content */
-  pointer-events: none; /* Allows users to click through the noise */
-  opacity: 0.25; /* 25% Opacity */
-  
-  /* Inline SVG Multi-colored Noise Texture */
-  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://w3.org id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.1 0.1' numOctaves='1' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 99999;
+    pointer-events: none;
+    opacity: 0.25; 
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://w3.org id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.1 0.1' numOctaves='1' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+}
+
+.pixelify-sans-<uniquifier> {
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 
 .element-class {
@@ -28,9 +33,20 @@ html::before {
 }
 
 hr {
-  border: none;
-  height: 1px;        
-  background-color: #ffffff; 
-  opacity: 1;  
-  width: 50%;
+    border: none;
+    height: 1px;        
+    background-color: #ffffff; 
+    opacity: 1;  
+    width: 50%;
+}
+
+.header_announcement_marquee {
+    border: 1px;
+    border-style: solid;
+    border-color: white;
+    color: #ffffff;
+    font-style: bold;
+    font-family: "Pixelify Sans", sans-serif;
+    -webkit-text-stroke: 1px black;
+    text-shadow: 0px 9px 0px #000000;
 }
