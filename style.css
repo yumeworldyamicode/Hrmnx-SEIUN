@@ -47,6 +47,6 @@ hr {
     color: #ffffff;
     font-style: bold;
     font-family: "Pixelify Sans", sans-serif;
-    -webkit-text-stroke: 1px black;
+    -webkit-text-stroke: 3px black;
     text-shadow: 0px 9px 0px #000000;
 }
