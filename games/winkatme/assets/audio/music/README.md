@@ -1,0 +1,1 @@
+Put chosen BGM files here. Naming suggestion: wink.mp3, u.mp3, track-03.mp3, etc. Rhythm charts will need beat timings for each track.
