@@ -1,0 +1,1 @@
+Cutscene art slots: WINK album cover, record store background, CD/player, sleepy notes and awakened notes. Add original pixel PNG assets here.
