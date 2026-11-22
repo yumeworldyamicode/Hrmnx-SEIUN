@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>WINK AT ME | SEIUN</title>
+<meta name="description" content="A tiny rhythm rescue game starring SEIUN.">
+<link rel="stylesheet" href="winkatme.css">
+</head>
+<body>
+<div class="game-shell">
+<header class="topbar"><a class="brand" href="../../index.html" aria-label="SEIUN home"><span class="brand-mark">S</span><span>SEIUN <small>WINK AT ME</small></span></a><div class="language" aria-label="Language"><button data-lang="en" class="active">EN</button><button data-lang="ko">KO</button><button data-lang="ja">JA</button><button data-lang="zh">ZH</button></div></header>
+<main>
+<section id="screen-intro" class="screen active">
+<div class="hero-card"><div class="sparkle-field" aria-hidden="true"></div><div class="eyebrow">A WINK album special game</div><h1>WINK<br><em>AT ME</em></h1><p class="hero-sub">The music notes need a little wake-up call.</p><div class="art-stage" id="intro-art"></div><button id="start-story" class="primary">START THE STORY <span class="arrow">→</span></button><p class="tiny">A SEIUN rhythm adventure</p></div>
+</section>
+<section id="screen-story" class="screen">
+<div class="story-card"><div class="story-frame" id="story-art"></div><div class="story-caption"><span id="story-count">STORY 01</span><h2 id="story-title">A shopping day</h2><p id="story-text"></p><button id="story-next" class="primary">NEXT <span class="arrow">→</span></button></div></div>
+</section>
+<section id="screen-select" class="screen">
+<div class="section-heading"><div class="eyebrow">Choose your rescuer</div><h2>Who will wake the notes?</h2><p>Pick a member to join the rhythm rescue.</p></div>
+<div class="character-grid" id="character-grid"></div><div class="song-panel"><h3>Choose your soundtrack</h3><div class="song-options" id="song-options"><button class="song selected" data-song="demo">WINK AT ME · Rhythm Demo <small>Demo beat</small></button><button class="song" data-song="wink">WINK <small>Coming soon</small></button><button class="song" data-song="u">...u <small>Coming soon</small></button></div></div><button id="begin-game" class="primary" disabled>START RESCUE</button>
+</section>
+<section id="screen-game" class="screen">
+<div class="game-head"><div><div class="eyebrow">MISSION <span id="mission-member">SEIUN</span></div><h2>Wake the music!</h2></div><div class="score-box"><span>Score</span><strong id="score">000000</strong><small id="combo">COMBO 0</small></div></div>
+<div class="rhythm-board" id="rhythm-board"><div class="note-field" id="note-field"><div class="lane" data-lane="0"></div><div class="lane" data-lane="1"></div><div class="lane" data-lane="2"></div><div class="lane" data-lane="3"></div><div class="hit-line"></div><div class="hit-buttons"><button class="hit-button" data-hit="0" aria-label="Hit lane 1">1</button><button class="hit-button" data-hit="1" aria-label="Hit lane 2">2</button><button class="hit-button" data-hit="2" aria-label="Hit lane 3">3</button><button class="hit-button" data-hit="3" aria-label="Hit lane 4">4</button></div></div><div class="game-character" id="game-character"></div></div>
+<div class="game-controls"><span id="feedback">Ready?</span><button id="pause-game" class="soft-button">PAUSE</button><button id="exit-game" class="soft-button">EXIT</button></div><p class="controls-hint">Tap the glowing note when it reaches the line, or use keys 1–4.</p>
+</section>
+<section id="screen-result" class="screen">
+<div class="result-card"><div class="result-art" id="result-art"></div><div class="eyebrow">MISSION COMPLETE</div><h2>Music is awake!</h2><p id="result-message">You rescued the tired notes.</p><div class="result-score"><span>YOUR SCORE</span><strong id="final-score">0</strong><div id="final-stats"></div></div><div class="result-actions"><button id="again" class="primary">PLAY AGAIN</button><button id="to-home" class="soft-button">HOME</button></div></div>
+</section>
+</main>
+<footer><p>SEIUN · WINK AT ME</p><p>KiKi account connection and promotional ranking are coming in a future update.</p></footer>
+</div>
+<script src="winkatme.js"></script>
+</body>
+</html>
