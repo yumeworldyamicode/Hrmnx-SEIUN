@@ -1,0 +1,1 @@
+Add character sprites: `yennie.png`, `suji.png`, `hyejin.png`. Recommended 96x128 or 128x160 transparent pixel-art full-body chibi sprites. Keep a consistent canvas.
