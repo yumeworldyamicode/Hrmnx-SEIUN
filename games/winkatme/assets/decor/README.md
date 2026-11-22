@@ -1,0 +1,1 @@
+Add `star-blue.png`, `star-pink.png`, `star-white.png` (pixel stars, transparent PNG, 16x16 or 24x24). The floating background uses these filenames.
