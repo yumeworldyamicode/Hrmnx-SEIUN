@@ -1,0 +1,1 @@
+Place the pixel SEIUN logo here as `seiun-pixel-logo.png` (transparent PNG recommended, around 160x48 px).
