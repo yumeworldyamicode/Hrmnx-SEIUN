@@ -19,6 +19,6 @@ body{background:linear-gradient(180deg,#7eb9ed,#c6e6ff 58%,#f6fbff)}
 .primary{background:#84c8f7;color:#163f68}.primary:hover,.soft-button:hover{transform:translateY(-2px);box-shadow:0 7px 0 #4d91c6}
 .character-card{background:#f4faff}.character-card.selected{background:#d9efff}
 .song.selected{background:#c6e7ff}.note{background:#f8fdff;border-radius:50%;border-color:#3b81b4;box-shadow:0 3px 0 #4d91c6}.note:after{background:#8bc8f3;border-radius:50%}.hit-button{background:#f4fbff;border-radius:12px}
-.float-star{display:none}
+.float-star{display:block;background-repeat:no-repeat;background-size:contain;animation:star-drift var(--star-speed,12s) linear infinite;left:var(--star-x,10%);top:110vh;width:var(--star-size,24px);height:var(--star-size,24px);position:fixed;pointer-events:none;z-index:0;opacity:.8}
 .story-frame{background:#c8e7ff}.story-frame svg [fill="#f2c5e6"],.story-frame svg [fill="#f2b8df"]{fill:#9bd1f7}
 @media(max-width:620px){.hero-card h1{font-size:clamp(42px,13vw,68px)}.brand{font-size:17px}.brand small{font-size:11px}.character-card h3{font-size:18px}.character-card p{font-size:13px}.primary,.soft-button{font-size:14px}}
