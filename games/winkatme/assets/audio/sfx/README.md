@@ -1,0 +1,1 @@
+Required short SFX: tap.wav, hit-perfect.wav, hit-good.wav, miss.wav, note-wake.wav, menu-select.wav, menu-confirm.wav, story-transition.wav, result-clear.wav.
